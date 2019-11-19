@@ -1,7 +1,7 @@
 import Page from '../layouts/main'
 import HomeContent from '../content/home.md'
 
-const title = 'Home'
+const title = 'Javi Blanco'
 
 const Home = () => (
   <Page title={title}>
