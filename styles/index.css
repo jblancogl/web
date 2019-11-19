@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply p-12;
+html, body {
+  background-image: url('https://www.c82.net/images/werner/swatches/2-reddish-white.jpg')
 }
