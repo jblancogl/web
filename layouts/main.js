@@ -2,6 +2,8 @@ import '../styles/index.css'
 import Meta from '../components/meta'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/footer'
+import Router from "next/router"
+import withGA from "next-ga"
 
 const Main = props => (
   <div>
@@ -16,4 +18,4 @@ const Main = props => (
   </div>
 )
 
-export default Main
+export default withGA('UA-63759020-1', Router)(Main)
