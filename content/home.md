@@ -1,4 +1,4 @@
-Hi,  
+# Hi,  
 
 I'm Javier Blanco, also known as [@jblancogl][twitter]. I'm a computer programmer. 
 I'm from [Madrid][madrid], Spain, but I live on [Toulon][toulon], France.
