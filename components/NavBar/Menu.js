@@ -20,7 +20,7 @@ const Menu = () => (
       {menuItems}
     </div>
     <div className="flex flex-1 justify-end">
-      menu
+      
     </div>
   </div>
 )

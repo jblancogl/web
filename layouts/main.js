@@ -8,7 +8,9 @@ const Main = props => (
     <Meta title={props.title} />
     <NavBar />
     <article className="container mt-12">
+      <div className="p-5">
       { props.children }
+      </div>
     </article>
     <Footer />
   </div>

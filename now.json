@@ -1,7 +1,6 @@
 {
   "name": "jblancogl",
   "version": 2,
-  "alias": ["www.jblancogl.com"],
   "github": {
     "enabled": false
   }

@@ -1,7 +1,6 @@
 const Footer = props => (
-  <footer className="container">
-    <p>{new Date().getFullYear()}</p>
-    <p>EOF</p>
+  <footer className="container p-5">
+    <p>{new Date().getFullYear()} @ EOF</p>
   </footer>
 )
 
