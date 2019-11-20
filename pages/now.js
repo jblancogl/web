@@ -1,14 +1,10 @@
 import Page from '../layouts/main'
-import SectionTitle from '../components/SectionTitle'
 import NowContent from '../content/now.md'
 
-const title = 'Now'
+const title = 'What I\'m doing now'
 
-const Now = () => (
+export default () => (
   <Page title={title}>
-    <SectionTitle title={title} />
     <NowContent />
   </Page>
 )
-
-export default Now

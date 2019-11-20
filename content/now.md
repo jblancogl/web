@@ -1,7 +1,19 @@
+import SectionTitle from '../components/SectionTitle'
+
+<SectionTitle title="What I'm doing now" />
+
 I'm in Toulon.
 
-A few points of focus:
+<img src="/images/plage_de_la_mitre.jpeg" title="Plage de la Mitre" />
 
-  * Creating my site
+A few points of focus:
+  * Doing the course on Coursera of [Andrew Ng][@andrewyng] ["Machine Learning by Stanford University"][ml-course]
+  * Creating my personal website
+
+This is a "now page" which itemizes the work and other priorities that I'm 
+concentrating on right now. It's built in the style pioneered by Sivers.
   
-This page was last updated on <strong>November 19, 2019.</strong>
+This page was last updated on <strong>November 20, 2019.</strong>
+
+[@andrewyng]: https://twitter.com/andrewyng
+[ml-course]: https://www.coursera.org/learn/machine-learning

@@ -8,7 +8,7 @@ import withGA from "next-ga"
 
 const Main = props => (
   <div>
-    <Meta title={props.title} />
+    <Meta title={props.title} prefix="Javi Blanco" />
     <NavBar />
     <article className="container mt-12">
       <SectionContent>
