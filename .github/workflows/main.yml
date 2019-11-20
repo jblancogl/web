@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install now
-        run: npm i -g now
+        run: npm i now
       - name: Deploy on Zeit - Prod
         run: now --prod
         env:
