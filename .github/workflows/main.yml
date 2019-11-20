@@ -20,6 +20,6 @@ jobs:
       - name: Install now
         run: npm i now
       - name: Deploy on Zeit - Prod
-        run: now --prod --token ZEIT_TOKEN
+        run: now --prod --token $ZEIT_TOKEN
         env:
           ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
