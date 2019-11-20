@@ -2,6 +2,7 @@ import '../styles/index.css'
 import Meta from '../components/meta'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/footer'
+import SectionContent from '../components/SectionContent'
 import Router from "next/router"
 import withGA from "next-ga"
 
@@ -10,9 +11,9 @@ const Main = props => (
     <Meta title={props.title} />
     <NavBar />
     <article className="container mt-12">
-      <div className="p-5">
-      { props.children }
-      </div>
+      <SectionContent>
+        {props.children}
+      </SectionContent>
     </article>
     <Footer />
   </div>
