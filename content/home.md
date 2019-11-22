@@ -1,6 +1,4 @@
-import SectionTitle from '../components/SectionTitle'
-
-<SectionTitle title="Hi," />
+# Hi,
 
 I'm Javi Blanco, also known as [@jblancogl][twitter]. I'm a computer programmer. 
 I'm from [Madrid][madrid], Spain, but I live in [Toulon][toulon], France.

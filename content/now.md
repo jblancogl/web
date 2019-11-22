@@ -1,6 +1,6 @@
 import SectionTitle from '../components/SectionTitle'
 
-<SectionTitle title="What I'm doing now" />
+# What I'm doing now
 
 I'm in Toulon.
 

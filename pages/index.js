@@ -1,12 +1,10 @@
 import Page from '../layouts/main'
 import HomeContent from '../content/home.md'
 
-const title = 'Javi Blanco'
+const title = 'Home'
 
-const Home = () => (
+export default () => (
   <Page title={title}>
     <HomeContent />
   </Page>
 )
-
-export default Home
