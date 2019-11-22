@@ -1,5 +1,3 @@
-import SectionTitle from '../components/SectionTitle'
-
 # What I'm doing now
 
 I'm in Toulon.

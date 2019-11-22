@@ -4,7 +4,7 @@ const SectionContent = props => (
   <MDXProvider
     components={{
       h1: props => <h1 {...props} className="font-bold text-3xl mb-5" />,
-      p: props => <h1 {...props} className="mb-3" />,
+      p: props => <p {...props} className="mb-3" />,
       img: props => <img {...props} className="mb-5" />,
       ul: props => <ul {...props} className="mb-5" />,
       li: props => <li {...props} className="list-disc list-inside mr-5" />,

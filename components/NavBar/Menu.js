@@ -16,11 +16,8 @@ const menuItems = items.map(item => {
 
 const Menu = () => (
   <div className="flex-1 flex items-stretch">
-    <div className="flex flex-1">
-      {menuItems}
-    </div>
     <div className="flex flex-1 justify-end">
-      
+      {menuItems}
     </div>
   </div>
 )
