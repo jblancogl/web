@@ -1,6 +1,11 @@
+import Social from './Social.js'
+
 const Footer = props => (
-  <footer className="container p-5">
-    <p>{new Date().getFullYear()} @ EOF</p>
+  <footer className="container p-5 flex">
+    <div className="flex-1">
+      Javi Blanco @ {new Date().getFullYear()} EOF
+      </div>
+    <Social />
   </footer>
 )
 
