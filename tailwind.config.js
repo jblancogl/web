@@ -7,7 +7,7 @@ module.exports = {
       xl: '768px',
     },
     container: {
-      center: true,
+      center: true
     },
     extend: {}
   },

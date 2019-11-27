@@ -10,7 +10,7 @@ const SectionContent = props => (
       li: props => <li {...props} className="list-disc list-inside mr-5" />,
       a: props => <a {...props} className="hover:underline font-semibold" />
     }}>
-    <div className="p-5">
+    <div className={props.className}>
       {props.children}
     </div>
   </MDXProvider>
