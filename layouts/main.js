@@ -1,5 +1,5 @@
 import '../styles/index.css'
-import Meta from '../components/meta.js'
+import Meta from '../components/Meta.js'
 import NavBar from '../components/NavBar/NavBar.js'
 import Footer from '../components/Footer.js'
 import SectionContent from '../components/SectionContent.js'
