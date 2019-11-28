@@ -1,2 +1,3 @@
-# web
-My website
+# jblancogl.com
+
+My personal website
