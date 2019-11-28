@@ -10,7 +10,7 @@ const Main = props => (
   <div>
     <Meta title={props.title} prefix="Javi Blanco" />
     <NavBar />
-    <article className="container mt-12">
+    <article className="container mt-12 text-xl">
       <SectionContent className="pt-5 px-5 lg:px-0">
         {props.children}
       </SectionContent>
