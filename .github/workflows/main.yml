@@ -19,7 +19,11 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install now
         run: npm i now
+      - name: Build
+        run: npm run build
+      - name: Export
+        run: npm run export
       - name: Deploy on Zeit - Prod
-        run: now --prod --token $ZEIT_TOKEN
+        run: cd out && now --prod --token $ZEIT_TOKEN
         env:
           ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
