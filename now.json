@@ -1,7 +1,12 @@
 {
-  "name": "web",
+  "name": "jblancogl.com",
   "version": 2,
+  "alias": [
+    "www.jblancogl.com",
+    "jblancogl.com"
+  ],
   "github": {
-    "enabled": true
+    "enabled": true,
+    "autoAlias": false
   }
 }
