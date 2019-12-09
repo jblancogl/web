@@ -4,7 +4,7 @@ My personal website
 
 ## Development
 
-Clone de repository: `git clone git@github.com:jblancogl/web.git`
+Clone the repository: `git clone git@github.com:jblancogl/web.git`
 
 `cd` into the directory: `cd web`
 
