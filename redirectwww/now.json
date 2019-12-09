@@ -1,0 +1,16 @@
+{
+  "name": "web-www-redirect",
+  "version": 2,
+  "alias": [
+    "www.jblancogl.com"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://jblancogl.com/$1"
+      }
+    }
+  ]
+}
