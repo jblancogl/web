@@ -6,38 +6,46 @@ const people = [
   {
     title: 'Victoriano Izquierdo',
     link: 'https://victoriano.me',
-    twitter: 'victorianoi'
+    twitter: 'victorianoi',
+    description: ''
   },
   {
     title: 'Javi Santana',
     link: 'http://javisantana.com',
-    twitter: 'javisantana'
+    twitter: 'javisantana',
+    description: ''
   },
   {
     title: 'Guillermo Rauch',
     link: 'https://rauchg.com',
-    twitter: 'rauchg'
+    twitter: 'rauchg',
+    description: ''
   },
   {
     title: 'Brandur',
     link: 'https://brandur.org',
-    twitter: 'brandur'
+    twitter: 'brandur',
+    description: ''
   }
 ]
 
 const card = (props) => {
   return (
     <li className="px-3 mb-3">
-      <div className="border border-gray-100">
-        <img src={`https://www.avatars.io/twitter/${props.twitter}`} />
-        <div>
+      <div className="flex">
+        <img
+          className="rounded-full"
+          src={`https://avatars.io/twitter/${props.twitter}/medium`}
+          alt={`twitter image profile of ${props.twitter}/medium`}
+          width="100"
+          height="100"
+          loading="lazy" />
+        <div class="ml-3">
           <h2>{props.title}</h2>
           <a href={props.link}>{props.link}</a>
         </div>
-        <p>
-
-        </p>
       </div>
+      <p>{props.description}</p>
     </li>
   )
 }
