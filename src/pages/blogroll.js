@@ -31,17 +31,17 @@ const people = [
 
 const card = (props) => {
   return (
-    <li className="px-3 mb-3">
+    <li className="px-3 mb-3 lg:w-1/3">
       <div className="flex">
-        <img
-          className="rounded-full"
-          src={`https://avatars.io/twitter/${props.twitter}/medium`}
-          alt={`twitter image profile of ${props.twitter}/medium`}
-          width="100px"
-          height="100px"
-          loading="lazy" />
+        <div className="w-16 h-16">
+          <img
+            className="rounded-full w-full h-full"
+            src={`https://avatars.io/twitter/${props.twitter}/medium`}
+            alt={`twitter image profile of ${props.twitter}/medium`}
+            loading="lazy" />
+        </div>
         <div class="ml-3 flex flex-col justify-center">
-          <h2>{props.title}</h2>
+          <h2 class="lg:text-base">{props.title}</h2>
           <a className="text-base text-red-600" href={props.link}>{props.link}</a>
         </div>
       </div>
