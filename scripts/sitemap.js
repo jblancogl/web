@@ -3,11 +3,9 @@ const path = require('path')
 
 const urls = [
   '/',
-  '/articles',
   '/now',
+  '/blogroll',
   '/about',
-  '/genuinos',
-  '/about'
 ]
 
 createSitemapsAndIndex({

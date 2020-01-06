@@ -2,7 +2,6 @@ import Link from 'next/link'
 
 const items = [
   { link: '/', title: 'home' },
-  { link: '/articles', title: 'articles' },
   { link: '/now', title: 'now' },
   { link: '/about', title: 'about' }
 ].map((item) => {
