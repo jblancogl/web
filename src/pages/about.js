@@ -1,11 +1,14 @@
 import Page from '../layouts/main'
 import SectionTitle from '../components/SectionTitle'
 
-const title = 'About'
+const seo = {
+  title: 'About',
+  canonical: '/about'
+}
 
 const About = () => (
-  <Page title={title}>
-    <SectionTitle title={title} />
+  <Page seo={seo}>
+    <SectionTitle title={seo.title} />
   </Page>
 )
 

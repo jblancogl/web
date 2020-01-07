@@ -1,10 +1,13 @@
 import Page from '../layouts/main'
 import HomeContent from '../content/home.mdx'
 
-const title = 'Home'
+const seo = {
+  title: 'Home',
+  canonical: '/'
+}
 
 export default () => (
-  <Page title={title}>
+  <Page seo={seo}>
     <HomeContent />
   </Page>
 )

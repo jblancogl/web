@@ -1,7 +1,10 @@
 import Page from '../layouts/main'
 import people from '../../public/data/blogroll.json'
 
-const title = 'Blogroll'
+const seo = {
+  title: 'Blogroll',
+  canonical: '/blogroll'
+}
 
 const card = (props) => {
   return (
@@ -20,8 +23,8 @@ const card = (props) => {
         </div>
         <div className="ml-3 flex flex-col justify-center">
           <h2 className="lg:text-base">{props.title}</h2>
-          <a 
-            className="text-xs text-red-600 overflow-hidden" 
+          <a
+            className="text-xs text-red-600 overflow-hidden"
             href={props.link}>
             {props.link.replace(/https?:\/\//, '')}
           </a>
@@ -33,20 +36,20 @@ const card = (props) => {
 }
 
 export default () => (
-  <Page title={title}>
+  <Page seo={seo}>
     <h1 className="lg:text-6xl lg:text-center">Blogroll</h1>
     <h2 className="lg:text-3xl lg:text-center">Other people on the web</h2>
     <hr className="my-6" />
     <div className="text-sm text-right text-gray-600 mb-4 hidden lg:block">
       <span className="mr-1">Download: </span>
-      <a 
-        className="text-gray-700 hover:text-gray-900" 
+      <a
+        className="text-gray-700 hover:text-gray-900"
         href="/data/blogroll.json">
         json
       </a>
       <span className="mx-1">·</span>
-      <a 
-        className="text-gray-700 hover:text-gray-900" 
+      <a
+        className="text-gray-700 hover:text-gray-900"
         href="/data/blogroll.csv">
         csv
       </a>

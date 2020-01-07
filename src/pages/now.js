@@ -1,10 +1,13 @@
 import Page from '../layouts/main'
 import NowContent from '../content/now.md'
 
-const title = 'What I\'m doing now'
+const seo = {
+  title: 'What I\'m doing now',
+  canonical: '/now'
+}
 
 export default () => (
-  <Page title={title}>
+  <Page seo={seo}>
     <NowContent />
   </Page>
 )
