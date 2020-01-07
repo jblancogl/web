@@ -20,7 +20,11 @@ const card = (props) => {
         </div>
         <div className="ml-3 flex flex-col justify-center">
           <h2 className="lg:text-base">{props.title}</h2>
-          <a className="text-base text-red-600 overflow-hidden" href={props.link}>{props.link}</a>
+          <a 
+            className="text-xs text-red-600 overflow-hidden" 
+            href={props.link}>
+            {props.link.replace(/https?:\/\//, '')}
+          </a>
         </div>
       </div>
       <p>{props.description}</p>
