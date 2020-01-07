@@ -36,13 +36,13 @@ export default () => (
     <div className="text-sm text-right text-gray-600 mb-4 hidden lg:block">
       <span className="mr-1">Download: </span>
       <a 
-        className="text-gray-700 mr-1" 
+        className="text-gray-700 hover:text-gray-900" 
         href="/data/blogroll.json">
         json
       </a>
-      <span className="mr-1">|</span>
+      <span className="mx-1">·</span>
       <a 
-        className="text-gray-700" 
+        className="text-gray-700 hover:text-gray-900" 
         href="/data/blogroll.csv">
         csv
       </a>

@@ -19,6 +19,8 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install now
         run: npm i now
+      - name: Generate data
+        run: npm run data
       - name: Deploy on Zeit - Prod
         run: now --prod --token $ZEIT_TOKEN
         env:
