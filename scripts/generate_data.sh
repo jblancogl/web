@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
-rm public/data/*.csv |
+
+rm public/data/*.csv
 ls public/data/*.json | 
 xargs -I dir basename dir | 
 cut -f 1 -d '.' | 
