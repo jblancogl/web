@@ -18,5 +18,10 @@
     "title": "Instituto Nacional de Estadística",
     "link": "https://ine.es",
     "description": ""
+  },
+  {
+    "title": "Modern JavaScript Cheatsheet",
+    "link": "https://mbeaudru.github.io/modern-js-cheatsheet",
+    "description": "This document is a cheatsheet for JavaScript you will frequently encounter in modern projects and most contemporary sample code."
   }
 ]
