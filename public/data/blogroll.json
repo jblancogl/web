@@ -12,10 +12,22 @@
     "description":""
   },
   {
+    "title":"Rasmus Andersson",
+    "link":"https://rsms.me",
+    "twitter":"rsms",
+    "description":""
+  },
+  {
     "title":"Ana Valdi",
     "link":"https://valdilab.wordpress.com",
     "twitter":"ana_valdi",
     "description": ""
+  },
+  {
+    "title":"Axel Rauschmayer",
+    "link":"https://2ality.com",
+    "twitter":"rauschma",
+    "description":""
   },
   {
     "title":"Guillermo Rauch",
@@ -49,7 +61,7 @@
   },
   {
     "title":"Michael Nielsen",
-    "link":"http://michaelnielsen.org/",
+    "link":"http://michaelnielsen.org",
     "twitter":"michael_nielsen",
     "description":""
   },
