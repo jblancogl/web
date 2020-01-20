@@ -6,12 +6,12 @@ I'm in Toulon.
 
 A few points of focus:
   * ~~Doing the course on Coursera of [Andrew Ng][@andrewyng]~~ ["Machine Learning by Stanford University"][ml-course] [Certificate][certificate]
-  * Creating my personal website
+  * Creating a blog for my personal website
 
 This is a "now page" which itemizes the work and other priorities that I'm 
 concentrating on right now. It's built in the style pioneered by Sivers.
   
-This page was last updated on <strong>November 20, 2019.</strong>
+This page was last updated on <strong>January 16, 2020.</strong>
 
 [@andrewyng]: https://twitter.com/andrewyng
 [ml-course]: https://www.coursera.org/learn/machine-learning
