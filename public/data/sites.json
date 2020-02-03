@@ -33,5 +33,9 @@
     "title": "Common Voice",
     "link": "https://voice.mozilla.org",
     "description": "Common Voice is a project to help make voice recognition open to everyone. Now you can donate your voice to help us build an open-source voice database that anyone can use to make innovative apps for devices and the web."
-  }
+  },
+  {
+    "title": "Let's Learn About Waveforms",
+    "link": "https://pudding.cool/2018/02/waveforms",
+    "description": "An interactive guide that introduces and explores waveforms."
 ]
