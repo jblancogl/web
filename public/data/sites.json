@@ -1,4 +1,9 @@
 [
+  { 
+    "title": "Natural Earth",
+    "link": "https://www.naturalearthdata.com",
+    "description": "Free vector and raster map data"
+  },
   {
     "title": "Gapminder",
     "link": "https://www.gapminder.org",
