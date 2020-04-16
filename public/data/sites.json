@@ -48,5 +48,10 @@
     "title":"Programming Idioms",
     "link":"https://www.programming-idioms.org",
     "description":""
+  },
+  {
+    "title": "The D3 Graph Gallery &#8211; Simple charts made with d3.js",
+    "link": "https://www.d3-graph-gallery.com/index.html",
+    "description": "The D3 graph gallery displays hundreds of charts made with D3.js, always providing the reproducible code."
   }
 ]
